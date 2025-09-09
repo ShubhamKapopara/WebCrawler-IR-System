@@ -1,0 +1,21 @@
+cat > .gitignore <<EOL
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Data files (optional, keep generated files out of Git)
+data/html_pages/
+data/pickles/
+
+# Logs and temp files
+*.log
+*.swp
+EOL
